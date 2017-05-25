@@ -8,7 +8,7 @@ using vega.Persistance;
 namespace Vega.Migrations
 {
     [DbContext(typeof(VegaDbContext))]
-    [Migration("20170525034520_InitialModel")]
+    [Migration("20170525040050_InitialModel")]
     partial class InitialModel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
